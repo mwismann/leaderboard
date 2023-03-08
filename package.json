@@ -1,5 +1,5 @@
 {
-  "name": "webpack-boilerplate",
+  "name": "leaderboard",
   "version": "1.0.0",
   "description": "",
   "private": true,
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mwismann/webpack-boilerplate.git"
+    "url": "git+https://github.com/mwismann/leaderboard.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mwismann/webpack-boilerplate/issues"
+    "url": "https://github.com/mwismann/leaderboard/issues"
   },
-  "homepage": "https://github.com/mwismann/webpack-boilerplate#readme",
+  "homepage": "https://github.com/mwismann/leaderboard#readme",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "css-loader": "^6.7.3",
