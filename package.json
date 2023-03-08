@@ -1,7 +1,7 @@
 {
   "name": "leaderboard",
   "version": "1.0.0",
-  "description": "",
+  "description": "[leaderboard] is a basic website that displays scores submitted by different players thanks to the data provided by the Leaderboard API service. Users can interact by refreshing the scores and submitting their own score.",
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
