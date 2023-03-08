@@ -1,7 +1,7 @@
 {
-  "name": "webpack-boilerplate",
+  "name": "leaderboard",
   "version": "1.0.0",
-  "description": "",
+  "description": "[leaderboard] is a basic website that displays scores submitted by different players thanks to the data provided by the Leaderboard API service. Users can interact by refreshing the scores and submitting their own score.",
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mwismann/webpack-boilerplate.git"
+    "url": "git+https://github.com/mwismann/leaderboard.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mwismann/webpack-boilerplate/issues"
+    "url": "https://github.com/mwismann/leaderboard/issues"
   },
-  "homepage": "https://github.com/mwismann/webpack-boilerplate#readme",
+  "homepage": "https://github.com/mwismann/leaderboard#readme",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "css-loader": "^6.7.3",
