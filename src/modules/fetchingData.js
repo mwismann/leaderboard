@@ -3,14 +3,12 @@ const getScores = async (url) => {
     const response = await fetch(url);
     if (!response.ok) {
       return new Error(response.statusText);
-    };
+    }
 
     const data = await response.json();
 
     return data;
-  }
-
-  catch (error) {
+  } catch (error) {
     return error;
   }
 };
@@ -27,14 +25,12 @@ const postScore = async (url, userData) => {
 
     if (!response.ok) {
       return new Error(response.statusText);
-    };
+    }
 
     const data = await response.json();
-  
-    return data;
-  }
 
-  catch (error) {
+    return data;
+  } catch (error) {
     return error;
   }
 };

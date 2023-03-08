@@ -1,14 +1,15 @@
 import { getScores, postScore } from './fetchingData.js';
+
 const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/SzxB0D5b3hJBN8T3JMNC/scores/';
 
 const refreshData = () => {
   const scoresContainer = document.querySelector('.scores');
   scoresContainer.innerHTML = '';
-  getScores(url).then(data => {
-      data.result.forEach(score => {
-          scoresContainer.insertAdjacentHTML('beforeend', 
-          `<li><span>${score.user}: ${score.score}</span></li>`);
-      });
+  getScores(url).then((data) => {
+    data.result.forEach((score) => {
+      scoresContainer.insertAdjacentHTML('beforeend',
+        `<li><span>${score.user}: ${score.score}</span></li>`);
+    });
   });
 };
 
@@ -19,6 +20,6 @@ const sendData = () => {
   };
 
   postScore(url, data);
-}
+};
 
 export { refreshData, sendData };
