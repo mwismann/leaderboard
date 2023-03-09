@@ -62,7 +62,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- This project doesn't count with a live version at the moment
+- [Leaderboard](https://mwismann.github.io/leaderboard/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
