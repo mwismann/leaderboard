@@ -6,8 +6,9 @@
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
   color: #5842af;
-  text-shadow: 1px 1px #cbc8d9,
-              -1px -1px #fff;
+  text-shadow:
+    1px 1px #cbc8d9,
+    -1px -1px #fff;
   border: none;
 }
 
@@ -51,17 +52,20 @@ h2 {
   font-weight: bold;
   border-radius: 2rem;
   background: linear-gradient(145deg, #fffbff, #d7d4e6);
-  box-shadow:  20px 20px 60px #cbc8d9,
-              -20px -20px 60px #fff;
+  box-shadow:
+    20px 20px 60px #cbc8d9,
+    -20px -20px 60px #fff;
   cursor: pointer;
 }
 
 .btn:hover {
-  text-shadow: 1px 1px #fff,
-              -1px -1px #cbc8d9;
+  text-shadow:
+    1px 1px #fff,
+    -1px -1px #cbc8d9;
   background: linear-gradient(145deg, #d7d4e6, #fffbff);
-  box-shadow:  20px 20px 60px #cbc8d9,
-              -20px -20px 60px #fff;
+  box-shadow:
+    20px 20px 60px #cbc8d9,
+    -20px -20px 60px #fff;
 }
 
 /* ---------- Leaderboard Section ------------ */
@@ -75,10 +79,11 @@ h2 {
 .scores {
   list-style: none;
   padding: 0.25rem;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   background: #efebff;
-  box-shadow:  10px 10px 30px #cbc8d9,
-              -10px -10px 30px #fff;
+  box-shadow:
+    10px 10px 30px #cbc8d9,
+    -10px -10px 30px #fff;
 }
 
 .scores > li {
@@ -106,12 +111,14 @@ form {
 input[type="text"] {
   width: 100%;
   padding: 1rem;
-  text-shadow: 1px 1px #fff,
-              -1px -1px #cbc8d9;
+  text-shadow:
+    1px 1px #fff,
+    -1px -1px #cbc8d9;
   border-radius: 0.5rem;
   background: #efebff;
-  box-shadow: inset 10px 10px 30px #cbc8d9,
-              inset -10px -10px 30px #ffffff;
+  box-shadow:
+    inset 10px 10px 30px #cbc8d9,
+    inset -10px -10px 30px #fff;
 }
 
 ::placeholder {

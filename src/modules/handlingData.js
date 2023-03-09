@@ -7,10 +7,10 @@ const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/game
 // refreshData will render the content of our leaderboard
 const refreshData = () => {
   const scoresContainer = document.querySelector('.scores');
-  
+
   // First we empty the container to avoid duplicated content
   scoresContainer.innerHTML = '';
-  // Then we inject the data returned by getScores 
+  // Then we inject the data returned by getScores
   getScores(url).then((data) => {
     data.result.forEach((score) => {
       scoresContainer.insertAdjacentHTML('beforeend',
