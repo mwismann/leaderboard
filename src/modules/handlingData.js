@@ -14,7 +14,7 @@ const refreshData = () => {
   getScores(url).then((data) => {
     data.result.forEach((score) => {
       scoresContainer.insertAdjacentHTML('beforeend',
-        `<li><span>${score.user}: ${score.score}</span></li>`);
+        `<li><span>${score.user}</span><span>${score.score}</span></li>`);
     });
   });
 };
