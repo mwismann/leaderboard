@@ -119,6 +119,7 @@ input[type="text"] {
   box-shadow:
     inset 10px 10px 30px #cbc8d9,
     inset -10px -10px 30px #fff;
+  outline-color: #5842af;
 }
 
 ::placeholder {
